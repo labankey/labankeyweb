@@ -252,4 +252,16 @@ table.wikitable > * > tr > th {
 	width: 70%;
 }
 
+.ans{
+	padding-top: 14px;
+	padding-left: 14px;
+	padding-bottom:14px;
+	padding-right:14px;
+	display:none;
+	background: #ecf1f3;
+}
+
+.post p:first-child{
+	margin-bottom: 0px;
+}
 
