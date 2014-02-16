@@ -265,3 +265,20 @@ table.wikitable > * > tr > th {
 	margin-bottom: 0px;
 }
 
+.a_home {
+	text-decoration: none;
+	cursor: pointer;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+.a_home_symbol {
+	text-decoration: none;
+	cursor : pointer;
+}
+
+.header{
+	height: 70px;
+}	
+
