@@ -86,11 +86,7 @@ a         { color: #00a; }
 }
 
 .title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
+  color: #370eae;
 }
 
 .header a.extra {
@@ -250,6 +246,7 @@ table.wikitable > * > tr > th {
 .div_video{
 	margin: 0px auto;
 	width: 70%;
+	margin-top: 20px;
 }
 
 .ans{
@@ -282,3 +279,26 @@ table.wikitable > * > tr > th {
 	height: 70px;
 }	
 
+.download-app {
+	margin: 0px auto;
+	color: transparent;
+	font: 0/0 a;
+	text-shadow: none;
+	width: 70%;
+}
+
+.download-app a {
+	display: block;
+	height: 48px;
+	background: #F5F5F5 url("../images/google_play.png") no-repeat 75px 0px;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	-moz-transition: background-color 0.3s ease-in-out;
+	-ms-transition: background-color 0.3s ease-in-out;
+	-o-transition: background-color 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+}
