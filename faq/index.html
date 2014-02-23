@@ -4,15 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Các câu hỏi thường gặp</title>
+        <title>Laban Key – Bộ gõ Tiếng Việt thông minh trên Android</title>
+		<meta name="description" content="Gõ chuẩn như Unikey trên PC, bỏ dấu bất cứ đâu, gợi ý từ thông minh và rất nhiều theme đẹp mắt"/>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="css/syntax.css">
-        <link rel="stylesheet" href="css/main.css">
+		<meta property="og:title" content="Laban Key – Bộ gõ Tiếng Việt thông minh trên Android"/>
+		<meta property="og:site_name" content="Laban Key"/>
+		<meta property="og:url" content="/labankeyweb"/>
+		<meta property="og:image" content="/labankeyweb/images/" />
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="../css/syntax.css">
-        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="/labankeyweb/css/syntax.css">
+        <link rel="stylesheet" href="/labankeyweb/css/main.css">
 	<script type="text/javascript">
 		var userAgent = navigator.userAgent.toLowerCase();
 		// mobile device running ios or android
@@ -22,11 +24,19 @@
     </script>
     </head>
     <body>
-		
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=156107941259173";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
         <div class="site">
           <div class="header">
             <h1 align="center" style="margin-top:20px" class="title"><a>Laban Key</a></h1>
-            <h3 align="center">Bộ gõ TV dành cho Android</h3>
+            <h3 align="center">Bộ gõ Tiếng Việt thông minh</h3>
           </div>
 
           <a class="a_home_symbol" onClick="history.go(-1);return true;"><span>&#10094; </span></a>
@@ -54,6 +64,11 @@ Hiện tại chúng tôi chưa hỗ trợ điều chỉnh tăng độ rộng c�
 <div id="a4" class="ans">
 Hoàn toàn không. Muốn lấy được thông tin người dùng, phần mềm bắt buộc phải có quyền truy cập mạng lúc cài đặt. Tuy nhiên Laban Key không yêu cầu quyền này.
 </div>
+<a href="javascript:;" class="tbcontent" id="q21" onclick="toggleans(this, 'a21')">Tại sao lại cần quyền ghi âm?</a>
+<div id="a21" class="ans">
+Quyền ghi âm được dùng cho chức năng nhập chữ bằng giọng nói. Muốn dùng chức năng này bạn bấm phím ?123 &#10137; Phím micro.<br />
+Các bạn nên biết rằng để lấy được thông tin cá nhân của các bạn thì phần mềm bắt buộc cần quyền mạng. Tuy nhiên Laban Key không hề yêu cầu quyền này.
+</div>
 <a href="javascript:;" class="tbcontent" id="q5" onclick="toggleans(this, 'a5')">Làm sao để bàn phím trông đẹp hơn. Laban Key có hỗ trợ nhiều chủ đề (skin, theme) không?</a>
 <div id="a5" class="ans">
 Hiện tại Laban Key có nhiều chủ đề đẹp mắt khác nhau. Chúng tôi sẽ tiếp tục cập nhật thêm chủ đề mới.
@@ -72,6 +87,7 @@ Bạn cần phải bấm nhanh vào phím Shift (phím nằm bên dưới phím 
 <div id="a8" class="ans">
 Bạn nhấn giữ phím dấu phẩy.<br />
 <img src="../images/choose_navigation.png" alt="Cách mở phím điều hướng">
+Nếu bạn sử dụng máy tính bảng, để mở phím điều hướng bạn nhấn giữ phím settings hoặc phím micro tùy thuộc vào dòng máy.
 </div>
 <a href="javascript:;" class="tbcontent" id="q9" onclick="toggleans(this, 'a9')">Tại sao tôi không gõ được chữ &quot;ỡ&quot;. Ví dụ như ngỡ, mỡ.. ?</a>
 <div id="a9" class="ans">
@@ -138,8 +154,8 @@ Chúng tôi đang phát triển tính năng này. Bạn chờ thêm khoảng th�
     }   
     
     function resethili () {
-        var myfaq=new Array("a1","a2","a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11", "a12", "a13", "a14", "a15", "a16", "a17", "a18", "a19", "a20");
-        var myquest=new Array("q1","q2","q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20");
+        var myfaq=new Array("a1","a2","a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11", "a12", "a13", "a14", "a15", "a16", "a17", "a18", "a19", "a20", "a21");
+        var myquest=new Array("q1","q2","q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21");
         for (i=0; i<myfaq.length; i++) {
             var faqobj = document.getElementById(myfaq[i]);
             var qobj = document.getElementById(myquest[i]);
@@ -151,7 +167,8 @@ Chúng tôi đang phát triển tính năng này. Bạn chờ thêm khoảng th�
 
 </div>
 
-
+		  
+		  <div class="fb-share-button" data-href="/labankeyweb" data-type="button_count"></div>
           <div class="footer" align="center">
             <p>Bản quyền của công ty VNG 2013</p>
           </div>
