@@ -9,16 +9,20 @@
 
 		<meta property="og:title" content="Laban Key – Bộ gõ Tiếng Việt thông minh trên Android"/>
 		<meta property="og:site_name" content="Laban Key"/>
-		<meta property="og:url" content="/labankeyweb"/>
+		<meta property="og:url" content="http://labankey.github.io/labankeyweb"/>
 		<meta property="og:image" content="http://labankey.github.io/labankeyweb/images/app_icon.png" />
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/labankeyweb/css/syntax.css">
-        <link rel="stylesheet" href="/labankeyweb/css/main.css">
+        <link rel="stylesheet" href="http://labankey.github.io/labankeyweb/css/syntax.css">
+        <link rel="stylesheet" href="http://labankey.github.io/labankeyweb/css/main.css">
 	<script type="text/javascript">
 		var userAgent = navigator.userAgent.toLowerCase();
+		// tablet device running ios or android
+        if (/ipad/i.test(userAgent) || (/android/i.test(userAgent) && !(/mobile/i.test(userAgent)))) {
+            // redirect to tablet version or do nothing to keep using the desktop version
+        }
 		// mobile device running ios or android
-		if (/iphone/i.test(userAgent) || /android/i.test(userAgent)) {
+		else if (/iphone/i.test(userAgent) || /android/i.test(userAgent)) {
 		window.location = 'http://laban.vn/mlabankey';
 		}
     </script>
@@ -50,7 +54,7 @@
 <div id="a1" class="ans">
 Cách thứ 1: Bạn vào màn hình chính, chọn Tùy chỉnh. <br />
 Cách thứ 2: Bạn nhấn giữ phím dấu phẩy và chọn Tùy chỉnh.<br />
-<img src="../images/choose_options.png" alt="Cách mở tùy chỉnh">
+<img src="http://labankey.github.io/labankeyweb/images/choose_options.png" alt="Cách mở tùy chỉnh">
 </div>
 <a href="javascript:;" class="tbcontent" id="q2" onclick="toggleans(this, 'a2')">Cách gõ Telex</a>
 <div id="a2" class="ans">
@@ -252,7 +256,7 @@ Hiện tại chúng tôi chưa hỗ trợ điều chỉnh tăng độ rộng c�
 <div id="a5" class="ans">
 Hiện tại Laban Key có nhiều chủ đề đẹp mắt khác nhau. Chúng tôi sẽ tiếp tục cập nhật thêm chủ đề mới.
 Vào Tùy chỉnh &#10137; Chủ đề bàn phím <br />
-<img src="../images/theme_choose.png" alt="Cách thay đổi chủ đề">
+<img src="http://labankey.github.io/labankeyweb/images/theme_choose.png" alt="Cách thay đổi chủ đề">
 </div>
 <a href="javascript:;" class="tbcontent" id="q6" onclick="toggleans(this, 'a6')">Chức năng gõ tắt</a>
 <div id="a6" class="ans">
@@ -265,7 +269,7 @@ Bấm nhanh vào phím Shift (phím nằm bên dưới phím A).
 <a href="javascript:;" class="tbcontent" id="q8" onclick="toggleans(this, 'a8')">Mở phím điều hướng (4 phím mũi tên để di chuyển cho trỏ)</a>
 <div id="a8" class="ans">
 Nhấn giữ phím dấu phẩy.<br />
-<img src="../images/choose_navigation.png" alt="Cách mở phím điều hướng">
+<img src="http://labankey.github.io/labankeyweb/images/choose_navigation.png" alt="Cách mở phím điều hướng">
 Nếu bạn sử dụng máy tính bảng, để mở phím điều hướng bạn nhấn giữ phím settings hoặc phím micro tùy thuộc vào dòng máy.
 </div>
 <a href="javascript:;" class="tbcontent" id="q9" onclick="toggleans(this, 'a9')">Cách xuống dòng</a>
@@ -276,7 +280,7 @@ Trong một số khung nhập, phím xuống dòng sẽ bị thay thế bởi ph
 <div id="a10" class="ans">
 Chỉ cần nhấn giữ phím xuống dòng (Enter).
 Lưu ý: Các biểu tượng mặt cười chỉ xuất hiện trên Android 4.4 trở lên.<br />
-<img src="../images/Emoji.png" alt="Cách mở Emoji">
+<img src="http://labankey.github.io/labankeyweb/images/Emoji.png" alt="Cách mở Emoji">
 </div>
 <a href="javascript:;" class="tbcontent" id="q11" onclick="toggleans(this, 'a11')">Bật hoặc tắt khung gợi ý từ</a>
 <div id="a11" class="ans">
@@ -285,12 +289,12 @@ Vào Tùy chỉnh &#10137; Hiển thị gợi ý từ
 <a href="javascript:;" class="tbcontent" id="q12" onclick="toggleans(this, 'a12')">Phím .com .net .org khi sử dụng trên thanh địa chỉ web</a>
 <div id="a12" class="ans">
 Nhấn giữ phím OK hoặc Xong, hộp thoại chứa các phím này sẽ xuất hiện. <br />
-<img src="../images/shortcut_web.png" alt="Phím tắt duyệt web">
+<img src="http://labankey.github.io/labankeyweb/images/shortcut_web.png" alt="Phím tắt duyệt web">
 </div>
 <a href="javascript:;" class="tbcontent" id="q13" onclick="toggleans(this, 'a13')">Chuyển bộ gõ từ Tiếng Việt sang Tiếng Anh</a>
 <div id="a13" class="ans">
 Vuốt ngang phím space (phím khoảng trắng).<br />
-<img src="../images/choose_english_key.png" alt="Cách chuyển ngôn ngữ">
+<img src="http://labankey.github.io/labankeyweb/images/choose_english_key.png" alt="Cách chuyển ngôn ngữ">
 </div>
 <a href="javascript:;" class="tbcontent" id="q14" onclick="toggleans(this, 'a14')">Loại bỏ những kí hiệu nhỏ có trên bàn phím để trông thoáng hơn</a>
 <div id="a14" class="ans">
@@ -300,7 +304,7 @@ Vào Tùy chỉnh &#10137; Tùy chọn bàn phím &#10137; Bỏ chọn &quot;Th�
 <div id="a15" class="ans">
 Vào Tùy chỉnh &#10137; Tùy chọn bàn phím &#10137; Luôn hiển thị chữ hoa.<br />
 Ngoài ra để giống bàn phím Iphone bạn nên Bỏ chọn &quot;Thêm số trên phím chữ&quot; và &quot;Thêm kí hiệu trên phím chữ&quot;.<br />
-<img src="../images/iphone_key.png" alt="Làm giống IOS">
+<img src="http://labankey.github.io/labankeyweb/images/iphone_key.png" alt="Làm giống IOS">
 </div></p>
 
 <script language="javascript">

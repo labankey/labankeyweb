@@ -9,16 +9,20 @@
 
 		<meta property="og:title" content="Laban Key – Bộ gõ Tiếng Việt thông minh trên Android"/>
 		<meta property="og:site_name" content="Laban Key"/>
-		<meta property="og:url" content="/labankeyweb"/>
+		<meta property="og:url" content="http://labankey.github.io/labankeyweb"/>
 		<meta property="og:image" content="http://labankey.github.io/labankeyweb/images/app_icon.png" />
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/labankeyweb/css/syntax.css">
-        <link rel="stylesheet" href="/labankeyweb/css/main.css">
+        <link rel="stylesheet" href="http://labankey.github.io/labankeyweb/css/syntax.css">
+        <link rel="stylesheet" href="http://labankey.github.io/labankeyweb/css/main.css">
 	<script type="text/javascript">
 		var userAgent = navigator.userAgent.toLowerCase();
+		// tablet device running ios or android
+        if (/ipad/i.test(userAgent) || (/android/i.test(userAgent) && !(/mobile/i.test(userAgent)))) {
+            // redirect to tablet version or do nothing to keep using the desktop version
+        }
 		// mobile device running ios or android
-		if (/iphone/i.test(userAgent) || /android/i.test(userAgent)) {
+		else if (/iphone/i.test(userAgent) || /android/i.test(userAgent)) {
 		window.location = 'http://laban.vn/mlabankey';
 		}
     </script>
